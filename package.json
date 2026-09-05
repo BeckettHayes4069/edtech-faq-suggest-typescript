@@ -1,0 +1,8 @@
+{
+  "name": "edtech-faq-suggest-typescript",
+  "private": true,
+  "type": "module",
+  "scripts": {"start": "node src/faq_service.ts", "test": "node --test src/faq_service.test.ts", "typecheck": "tsc --noEmit"},
+  "dependencies": {"zod": "^3.23.8"},
+  "devDependencies": {"typescript": "^5.6.3", "@types/node": "^22.0.0"}
+}
